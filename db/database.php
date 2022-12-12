@@ -109,7 +109,8 @@ $accesories = [
     ),
 ];
 
-$all_products = [ $foods ,$toys ,$accesories];
+// $all_products = [ $foods ,$toys ,$accesories];
+$all_products = [ 'Cibo', 'Giocattoli', 'Accessori'];
 
-var_dump($all_products);
+// var_dump($all_products);
 ?>
