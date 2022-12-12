@@ -19,14 +19,13 @@ class Product{
      * @param Boolean $_is_avaible
      * @param String $_image
      */
-    public function __construct($_id, $_name, $_brand, $_category, $_price, $_is_avaible, $_image)
+    public function __construct($_id, $_name, $_brand, $_category, $_price, $_image)
     {
         $this-> id = $_id;
         $this->name=$_name;
         $this->brand=$_brand;
         $this->category=$_category;
         $this->price=$_price;
-        $this->is_avaible=$_is_avaible;
         $this->image=$_image;
     }
 }
